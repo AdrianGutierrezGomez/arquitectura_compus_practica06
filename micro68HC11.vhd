@@ -412,7 +412,7 @@ begin
 					e_siguiente <= e_presente + 1;
 				when X"340" =>  -- SE GUARDA ACCA
 					SPL <= SPL - 1;
-					Data_out <= ACCA;		
+					Data_out <= A;		
 					nRW <= '0';	
 					e_siguiente <= e_presente + 1;
 				when X"341" =>  
@@ -421,7 +421,7 @@ begin
 					e_siguiente <= e_presente + 1;
 				when X"342" =>  -- SE GUARDA ACCB
 					SPL <= SPL - 1;
-					Data_out <= ACCB;		
+					Data_out <= B;		
 					nRW <= '0';	
 					e_siguiente <= e_presente + 1;
 				when X"343" =>  
