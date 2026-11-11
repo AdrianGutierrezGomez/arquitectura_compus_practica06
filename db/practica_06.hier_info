@@ -7,7 +7,8 @@ a[4] <= micro68HC11:inst.A_out[4]
 a[5] <= micro68HC11:inst.A_out[5]
 a[6] <= micro68HC11:inst.A_out[6]
 a[7] <= micro68HC11:inst.A_out[7]
-clk => micro68HC11:inst.clk
+sensa_boton => sensa_boton:inst4.boton
+clk => sensa_boton:inst4.clk
 reset => micro68HC11:inst.reset
 nIRQ => micro68HC11:inst.nIRQ
 nXIRQ => micro68HC11:inst.nXIRQ
@@ -686,6 +687,15 @@ flags[4] <= estados[4].DB_MAX_OUTPUT_PORT_TYPE
 flags[5] <= estados[5].DB_MAX_OUTPUT_PORT_TYPE
 flags[6] <= estados[6].DB_MAX_OUTPUT_PORT_TYPE
 flags[7] <= estados[7].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|practica_06|sensa_boton:inst4
+boton => esiguiente.DATAIN
+boton => reloj.DATAB
+clk => esiguiente.CLK
+clk => reloj~reg0.CLK
+reloj <= reloj~reg0.DB_MAX_OUTPUT_PORT_TYPE
+epresente <= esiguiente.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |practica_06|memoria:inst1

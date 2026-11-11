@@ -24,7 +24,7 @@ on the Quartus Prime software download page.
 	(input)
 	(rect 24 288 192 304)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "nIRQ" (rect 5 0 31 11)(font "Arial" ))
+	(text "nIRQ" (rect 5 0 30 11)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -35,12 +35,13 @@ on the Quartus Prime software download page.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect -32 304 24 320))
 )
 (pin
 	(input)
 	(rect 24 312 192 328)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "nXIRQ" (rect 5 0 36 11)(font "DejaVu Sans Condensed" ))
+	(text "nXIRQ" (rect 5 0 35 11)(font "DejaVu Sans Condensed" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -51,12 +52,13 @@ on the Quartus Prime software download page.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect -40 328 24 344))
 )
 (pin
 	(input)
-	(rect 24 232 192 248)
+	(rect -88 216 80 232)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "clk" (rect 5 0 20 11)(font "DejaVu Sans Condensed" ))
+	(text "clk" (rect 5 0 19 11)(font "DejaVu Sans Condensed" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -67,12 +69,13 @@ on the Quartus Prime software download page.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect -144 232 -88 248))
 )
 (pin
 	(input)
 	(rect 24 256 192 272)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "reset" (rect 5 0 33 11)(font "Arial" ))
+	(text "reset" (rect 5 0 32 11)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -83,12 +86,13 @@ on the Quartus Prime software download page.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect -32 272 24 288))
 )
 (pin
 	(input)
 	(rect 392 672 568 688)
 	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
-	(text "entrada[1..0]" (rect 5 0 76 11)(font "Arial" ))
+	(text "entrada[1..0]" (rect 5 0 75 11)(font "Arial" ))
 	(pt 176 8)
 	(drawing
 		(line (pt 92 12)(pt 117 12))
@@ -99,6 +103,23 @@ on the Quartus Prime software download page.
 		(line (pt 117 12)(pt 121 8))
 	)
 	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect 336 688 392 704))
+)
+(pin
+	(input)
+	(rect -136 144 32 160)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "sensa_boton" (rect 5 0 73 11)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
 )
 (pin
 	(output)
@@ -131,6 +152,7 @@ on the Quartus Prime software download page.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
+	(annotation_block (location)(rect 896 104 960 120))
 )
 (pin
 	(output)
@@ -496,6 +518,42 @@ on the Quartus Prime software download page.
 		(rectangle (rect 16 16 176 96))
 	)
 )
+(symbol
+	(rect 128 120 288 200)
+	(text "sensa_boton" (rect 5 0 72 11)(font "Arial" ))
+	(text "inst4" (rect 8 64 31 75)(font "DejaVu Sans Condensed" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "boton" (rect 0 0 30 11)(font "Arial" ))
+		(text "boton" (rect 21 27 51 38)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "clk" (rect 0 0 16 11)(font "Arial" ))
+		(text "clk" (rect 21 43 37 54)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 160 32)
+		(output)
+		(text "reloj" (rect 0 0 23 11)(font "Arial" ))
+		(text "reloj" (rect 120 27 143 38)(font "Arial" ))
+		(line (pt 160 32)(pt 144 32))
+	)
+	(port
+		(pt 160 48)
+		(output)
+		(text "epresente" (rect 0 0 54 11)(font "Arial" ))
+		(text "epresente" (rect 94 43 148 54)(font "Arial" ))
+		(line (pt 160 48)(pt 144 48))
+	)
+	(drawing
+		(rectangle (rect 16 16 144 64))
+	)
+)
 (connector
 	(pt 288 288)
 	(pt 240 288)
@@ -535,14 +593,6 @@ on the Quartus Prime software download page.
 (connector
 	(pt 232 256)
 	(pt 288 256)
-)
-(connector
-	(pt 232 256)
-	(pt 232 240)
-)
-(connector
-	(pt 232 240)
-	(pt 192 240)
 )
 (connector
 	(pt 288 320)
@@ -910,6 +960,38 @@ on the Quartus Prime software download page.
 	(pt 568 680)
 	(pt 664 680)
 	(bus)
+)
+(connector
+	(pt 96 224)
+	(pt 80 224)
+)
+(connector
+	(pt 96 224)
+	(pt 96 168)
+)
+(connector
+	(pt 96 168)
+	(pt 128 168)
+)
+(connector
+	(pt 288 152)
+	(pt 344 152)
+)
+(connector
+	(pt 344 216)
+	(pt 344 152)
+)
+(connector
+	(pt 344 216)
+	(pt 232 216)
+)
+(connector
+	(pt 232 256)
+	(pt 232 216)
+)
+(connector
+	(pt 32 152)
+	(pt 128 152)
 )
 (junction (pt 552 272))
 (junction (pt 952 416))
