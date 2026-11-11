@@ -1,5 +1,5 @@
 Analysis & Synthesis report for practica_06
-Mon Nov  9 23:18:49 2026
+Wed Nov 11 10:09:54 2026
 Quartus Prime Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
 
 
@@ -50,7 +50,7 @@ on the Quartus Prime software download page.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Mon Nov  9 23:18:49 2026           ;
+; Analysis & Synthesis Status        ; Successful - Wed Nov 11 10:09:54 2026           ;
 ; Quartus Prime Version              ; 25.1std.0 Build 1129 10/21/2025 SC Lite Edition ;
 ; Revision Name                      ; practica_06                                     ;
 ; Top-level Entity Name              ; practica_06                                     ;
@@ -158,36 +158,35 @@ on the Quartus Prime software download page.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 12          ;
-; Maximum allowed            ; 12          ;
+; Number detected on machine ; 2           ;
+; Maximum allowed            ; 2           ;
 ;                            ;             ;
-; Average used               ; 1.01        ;
-; Maximum used               ; 12          ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 2           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.1%      ;
-;     Processors 3-12        ;   0.0%      ;
+;     Processor 2            ;   0.0%      ;
 +----------------------------+-------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                             ;
-+----------------------------------+-----------------+------------------------------------+------------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                                                   ; Library ;
-+----------------------------------+-----------------+------------------------------------+------------------------------------------------------------------------------------------------+---------+
-; micro68HC11.vhd                  ; yes             ; User VHDL File                     ; /Repos/arquitectura_compus_practica06/micro68HC11.vhd                                          ;         ;
-; practica_06.bdf                  ; yes             ; User Block Diagram/Schematic File  ; /Repos/arquitectura_compus_practica06/practica_06.bdf                                          ;         ;
-; memoria.vhd                      ; yes             ; User VHDL File                     ; /Repos/arquitectura_compus_practica06/memoria.vhd                                              ;         ;
-; multiplexor.vhd                  ; yes             ; User VHDL File                     ; /Repos/arquitectura_compus_practica06/multiplexor.vhd                                          ;         ;
-; lpm_mult.tdf                     ; yes             ; Megafunction                       ; /home/adriangutierrezgomez/altera_lite/25.1std/quartus/libraries/megafunctions/lpm_mult.tdf    ;         ;
-; aglobal251.inc                   ; yes             ; Megafunction                       ; /home/adriangutierrezgomez/altera_lite/25.1std/quartus/libraries/megafunctions/aglobal251.inc  ;         ;
-; lpm_add_sub.inc                  ; yes             ; Megafunction                       ; /home/adriangutierrezgomez/altera_lite/25.1std/quartus/libraries/megafunctions/lpm_add_sub.inc ;         ;
-; multcore.inc                     ; yes             ; Megafunction                       ; /home/adriangutierrezgomez/altera_lite/25.1std/quartus/libraries/megafunctions/multcore.inc    ;         ;
-; bypassff.inc                     ; yes             ; Megafunction                       ; /home/adriangutierrezgomez/altera_lite/25.1std/quartus/libraries/megafunctions/bypassff.inc    ;         ;
-; altshift.inc                     ; yes             ; Megafunction                       ; /home/adriangutierrezgomez/altera_lite/25.1std/quartus/libraries/megafunctions/altshift.inc    ;         ;
-; db/mult_aat.tdf                  ; yes             ; Auto-Generated Megafunction        ; /Repos/arquitectura_compus_practica06/db/mult_aat.tdf                                          ;         ;
-+----------------------------------+-----------------+------------------------------------+------------------------------------------------------------------------------------------------+---------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                   ;
++----------------------------------+-----------------+------------------------------------+--------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                                         ; Library ;
++----------------------------------+-----------------+------------------------------------+--------------------------------------------------------------------------------------+---------+
+; micro68HC11.vhd                  ; yes             ; User VHDL File                     ; /home/adrianggtz/repos/arquitectura_compus_practica06/micro68HC11.vhd                ;         ;
+; practica_06.bdf                  ; yes             ; User Block Diagram/Schematic File  ; /home/adrianggtz/repos/arquitectura_compus_practica06/practica_06.bdf                ;         ;
+; memoria.vhd                      ; yes             ; User VHDL File                     ; /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd                    ;         ;
+; multiplexor.vhd                  ; yes             ; User VHDL File                     ; /home/adrianggtz/repos/arquitectura_compus_practica06/multiplexor.vhd                ;         ;
+; lpm_mult.tdf                     ; yes             ; Megafunction                       ; /home/adrianggtz/altera_lite/25.1std/quartus/libraries/megafunctions/lpm_mult.tdf    ;         ;
+; aglobal251.inc                   ; yes             ; Megafunction                       ; /home/adrianggtz/altera_lite/25.1std/quartus/libraries/megafunctions/aglobal251.inc  ;         ;
+; lpm_add_sub.inc                  ; yes             ; Megafunction                       ; /home/adrianggtz/altera_lite/25.1std/quartus/libraries/megafunctions/lpm_add_sub.inc ;         ;
+; multcore.inc                     ; yes             ; Megafunction                       ; /home/adrianggtz/altera_lite/25.1std/quartus/libraries/megafunctions/multcore.inc    ;         ;
+; bypassff.inc                     ; yes             ; Megafunction                       ; /home/adrianggtz/altera_lite/25.1std/quartus/libraries/megafunctions/bypassff.inc    ;         ;
+; altshift.inc                     ; yes             ; Megafunction                       ; /home/adrianggtz/altera_lite/25.1std/quartus/libraries/megafunctions/altshift.inc    ;         ;
+; db/mult_aat.tdf                  ; yes             ; Auto-Generated Megafunction        ; /home/adrianggtz/repos/arquitectura_compus_practica06/db/mult_aat.tdf                ;         ;
++----------------------------------+-----------------+------------------------------------+--------------------------------------------------------------------------------------+---------+
 
 
 +---------------------------------------------------------+
@@ -529,7 +528,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:01     ;
+; Top            ; 00:00:08     ;
 +----------------+--------------+
 
 
@@ -539,210 +538,210 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
-    Info: Processing started: Mon Nov  9 23:18:43 2026
+    Info: Processing started: Wed Nov 11 10:09:19 2026
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off practica_06 -c practica_06
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
+Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file micro68HC11.vhd
-    Info (12022): Found design unit 1: micro68HC11-Behavioral File: /Repos/arquitectura_compus_practica06/micro68HC11.vhd Line: 28
-    Info (12023): Found entity 1: micro68HC11 File: /Repos/arquitectura_compus_practica06/micro68HC11.vhd Line: 6
+    Info (12022): Found design unit 1: micro68HC11-Behavioral File: /home/adrianggtz/repos/arquitectura_compus_practica06/micro68HC11.vhd Line: 28
+    Info (12023): Found entity 1: micro68HC11 File: /home/adrianggtz/repos/arquitectura_compus_practica06/micro68HC11.vhd Line: 6
 Warning (12019): Can't analyze file -- file practica_06.vhd is missing
 Info (12021): Found 1 design units, including 1 entities, in source file practica_06.bdf
     Info (12023): Found entity 1: practica_06
 Info (12021): Found 2 design units, including 1 entities, in source file memoria.vhd
-    Info (12022): Found design unit 1: memoria-Behavioral File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 18
-    Info (12023): Found entity 1: memoria File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 6
+    Info (12022): Found design unit 1: memoria-Behavioral File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 18
+    Info (12023): Found entity 1: memoria File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 6
 Info (12021): Found 2 design units, including 1 entities, in source file multiplexor.vhd
-    Info (12022): Found design unit 1: multiplexor-Behavioral File: /Repos/arquitectura_compus_practica06/multiplexor.vhd Line: 15
-    Info (12023): Found entity 1: multiplexor File: /Repos/arquitectura_compus_practica06/multiplexor.vhd Line: 5
+    Info (12022): Found design unit 1: multiplexor-Behavioral File: /home/adrianggtz/repos/arquitectura_compus_practica06/multiplexor.vhd Line: 15
+    Info (12023): Found entity 1: multiplexor File: /home/adrianggtz/repos/arquitectura_compus_practica06/multiplexor.vhd Line: 5
 Info (12127): Elaborating entity "practica_06" for the top level hierarchy
 Info (12128): Elaborating entity "micro68HC11" for hierarchy "micro68HC11:inst"
-Warning (10541): VHDL Signal Declaration warning at micro68HC11.vhd(41): used implicit default value for signal "ACCB" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: /Repos/arquitectura_compus_practica06/micro68HC11.vhd Line: 41
-Warning (10541): VHDL Signal Declaration warning at micro68HC11.vhd(42): used implicit default value for signal "ACCA" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: /Repos/arquitectura_compus_practica06/micro68HC11.vhd Line: 42
-Warning (10540): VHDL Signal Declaration warning at micro68HC11.vhd(46): used explicit default value for signal "SPH" because signal was never assigned a value File: /Repos/arquitectura_compus_practica06/micro68HC11.vhd Line: 46
-Warning (10540): VHDL Signal Declaration warning at micro68HC11.vhd(49): used explicit default value for signal "microI" because signal was never assigned a value File: /Repos/arquitectura_compus_practica06/micro68HC11.vhd Line: 49
-Warning (10540): VHDL Signal Declaration warning at micro68HC11.vhd(50): used explicit default value for signal "microX" because signal was never assigned a value File: /Repos/arquitectura_compus_practica06/micro68HC11.vhd Line: 50
-Warning (10540): VHDL Signal Declaration warning at micro68HC11.vhd(51): used explicit default value for signal "IntRI" because signal was never assigned a value File: /Repos/arquitectura_compus_practica06/micro68HC11.vhd Line: 51
-Warning (10540): VHDL Signal Declaration warning at micro68HC11.vhd(52): used explicit default value for signal "IntRX" because signal was never assigned a value File: /Repos/arquitectura_compus_practica06/micro68HC11.vhd Line: 52
-Warning (10036): Verilog HDL or VHDL warning at micro68HC11.vhd(62): object "indY" assigned a value but never read File: /Repos/arquitectura_compus_practica06/micro68HC11.vhd Line: 62
-Warning (10492): VHDL Process Statement warning at micro68HC11.vhd(644): signal "A" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /Repos/arquitectura_compus_practica06/micro68HC11.vhd Line: 644
-Warning (10492): VHDL Process Statement warning at micro68HC11.vhd(645): signal "B" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /Repos/arquitectura_compus_practica06/micro68HC11.vhd Line: 645
-Warning (10492): VHDL Process Statement warning at micro68HC11.vhd(647): signal "PC" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /Repos/arquitectura_compus_practica06/micro68HC11.vhd Line: 647
-Warning (10492): VHDL Process Statement warning at micro68HC11.vhd(648): signal "XL" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /Repos/arquitectura_compus_practica06/micro68HC11.vhd Line: 648
-Warning (10492): VHDL Process Statement warning at micro68HC11.vhd(649): signal "XH" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /Repos/arquitectura_compus_practica06/micro68HC11.vhd Line: 649
-Warning (10492): VHDL Process Statement warning at micro68HC11.vhd(650): signal "YL" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /Repos/arquitectura_compus_practica06/micro68HC11.vhd Line: 650
-Warning (10492): VHDL Process Statement warning at micro68HC11.vhd(651): signal "estados" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /Repos/arquitectura_compus_practica06/micro68HC11.vhd Line: 651
+Warning (10541): VHDL Signal Declaration warning at micro68HC11.vhd(41): used implicit default value for signal "ACCB" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: /home/adrianggtz/repos/arquitectura_compus_practica06/micro68HC11.vhd Line: 41
+Warning (10541): VHDL Signal Declaration warning at micro68HC11.vhd(42): used implicit default value for signal "ACCA" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: /home/adrianggtz/repos/arquitectura_compus_practica06/micro68HC11.vhd Line: 42
+Warning (10540): VHDL Signal Declaration warning at micro68HC11.vhd(46): used explicit default value for signal "SPH" because signal was never assigned a value File: /home/adrianggtz/repos/arquitectura_compus_practica06/micro68HC11.vhd Line: 46
+Warning (10540): VHDL Signal Declaration warning at micro68HC11.vhd(49): used explicit default value for signal "microI" because signal was never assigned a value File: /home/adrianggtz/repos/arquitectura_compus_practica06/micro68HC11.vhd Line: 49
+Warning (10540): VHDL Signal Declaration warning at micro68HC11.vhd(50): used explicit default value for signal "microX" because signal was never assigned a value File: /home/adrianggtz/repos/arquitectura_compus_practica06/micro68HC11.vhd Line: 50
+Warning (10540): VHDL Signal Declaration warning at micro68HC11.vhd(51): used explicit default value for signal "IntRI" because signal was never assigned a value File: /home/adrianggtz/repos/arquitectura_compus_practica06/micro68HC11.vhd Line: 51
+Warning (10540): VHDL Signal Declaration warning at micro68HC11.vhd(52): used explicit default value for signal "IntRX" because signal was never assigned a value File: /home/adrianggtz/repos/arquitectura_compus_practica06/micro68HC11.vhd Line: 52
+Warning (10036): Verilog HDL or VHDL warning at micro68HC11.vhd(62): object "indY" assigned a value but never read File: /home/adrianggtz/repos/arquitectura_compus_practica06/micro68HC11.vhd Line: 62
+Warning (10492): VHDL Process Statement warning at micro68HC11.vhd(644): signal "A" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /home/adrianggtz/repos/arquitectura_compus_practica06/micro68HC11.vhd Line: 644
+Warning (10492): VHDL Process Statement warning at micro68HC11.vhd(645): signal "B" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /home/adrianggtz/repos/arquitectura_compus_practica06/micro68HC11.vhd Line: 645
+Warning (10492): VHDL Process Statement warning at micro68HC11.vhd(647): signal "PC" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /home/adrianggtz/repos/arquitectura_compus_practica06/micro68HC11.vhd Line: 647
+Warning (10492): VHDL Process Statement warning at micro68HC11.vhd(648): signal "XL" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /home/adrianggtz/repos/arquitectura_compus_practica06/micro68HC11.vhd Line: 648
+Warning (10492): VHDL Process Statement warning at micro68HC11.vhd(649): signal "XH" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /home/adrianggtz/repos/arquitectura_compus_practica06/micro68HC11.vhd Line: 649
+Warning (10492): VHDL Process Statement warning at micro68HC11.vhd(650): signal "YL" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /home/adrianggtz/repos/arquitectura_compus_practica06/micro68HC11.vhd Line: 650
+Warning (10492): VHDL Process Statement warning at micro68HC11.vhd(651): signal "estados" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /home/adrianggtz/repos/arquitectura_compus_practica06/micro68HC11.vhd Line: 651
 Info (12128): Elaborating entity "memoria" for hierarchy "memoria:inst1"
-Warning (10036): Verilog HDL or VHDL warning at memoria.vhd(23): object "s20" assigned a value but never read File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 23
-Warning (10492): VHDL Process Statement warning at memoria.vhd(39): signal "nRW" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 39
-Warning (10492): VHDL Process Statement warning at memoria.vhd(40): signal "Data_in" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 40
-Warning (10492): VHDL Process Statement warning at memoria.vhd(43): signal "nRW" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 43
-Warning (10492): VHDL Process Statement warning at memoria.vhd(44): signal "Data_in" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 44
-Warning (10492): VHDL Process Statement warning at memoria.vhd(47): signal "nRW" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 47
-Warning (10492): VHDL Process Statement warning at memoria.vhd(48): signal "Data_in" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 48
-Warning (10492): VHDL Process Statement warning at memoria.vhd(75): signal "nRW" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 75
-Warning (10492): VHDL Process Statement warning at memoria.vhd(76): signal "Data_in" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 76
-Warning (10492): VHDL Process Statement warning at memoria.vhd(106): signal "nRW" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 106
-Warning (10492): VHDL Process Statement warning at memoria.vhd(107): signal "Data_in" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 107
-Warning (10492): VHDL Process Statement warning at memoria.vhd(109): signal "s30" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 109
-Warning (10492): VHDL Process Statement warning at memoria.vhd(148): signal "nRW" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 148
-Warning (10492): VHDL Process Statement warning at memoria.vhd(149): signal "Data_in" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 149
-Warning (10492): VHDL Process Statement warning at memoria.vhd(151): signal "ccr" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 151
-Warning (10492): VHDL Process Statement warning at memoria.vhd(154): signal "nRW" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 154
-Warning (10492): VHDL Process Statement warning at memoria.vhd(155): signal "Data_in" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 155
-Warning (10492): VHDL Process Statement warning at memoria.vhd(157): signal "ACCB" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 157
-Warning (10492): VHDL Process Statement warning at memoria.vhd(160): signal "nRW" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 160
-Warning (10492): VHDL Process Statement warning at memoria.vhd(161): signal "Data_in" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 161
-Warning (10492): VHDL Process Statement warning at memoria.vhd(163): signal "ACCA" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 163
-Warning (10492): VHDL Process Statement warning at memoria.vhd(166): signal "nRW" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 166
-Warning (10492): VHDL Process Statement warning at memoria.vhd(167): signal "Data_in" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 167
-Warning (10492): VHDL Process Statement warning at memoria.vhd(169): signal "XH" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 169
-Warning (10492): VHDL Process Statement warning at memoria.vhd(172): signal "nRW" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 172
-Warning (10492): VHDL Process Statement warning at memoria.vhd(173): signal "Data_in" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 173
-Warning (10492): VHDL Process Statement warning at memoria.vhd(175): signal "XL" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 175
-Warning (10492): VHDL Process Statement warning at memoria.vhd(178): signal "nRW" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 178
-Warning (10492): VHDL Process Statement warning at memoria.vhd(179): signal "Data_in" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 179
-Warning (10492): VHDL Process Statement warning at memoria.vhd(181): signal "YH" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 181
-Warning (10492): VHDL Process Statement warning at memoria.vhd(184): signal "nRW" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 184
-Warning (10492): VHDL Process Statement warning at memoria.vhd(185): signal "Data_in" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 185
-Warning (10492): VHDL Process Statement warning at memoria.vhd(187): signal "YL" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 187
-Warning (10492): VHDL Process Statement warning at memoria.vhd(190): signal "nRW" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 190
-Warning (10492): VHDL Process Statement warning at memoria.vhd(191): signal "Data_in" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 191
-Warning (10492): VHDL Process Statement warning at memoria.vhd(193): signal "PCH" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 193
-Warning (10492): VHDL Process Statement warning at memoria.vhd(196): signal "nRW" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 196
-Warning (10492): VHDL Process Statement warning at memoria.vhd(197): signal "Data_in" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 197
-Warning (10492): VHDL Process Statement warning at memoria.vhd(199): signal "PCL" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 199
-Warning (10631): VHDL Process Statement warning at memoria.vhd(36): inferring latch(es) for signal or variable "salida10", which holds its previous value in one or more paths through the process File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Warning (10631): VHDL Process Statement warning at memoria.vhd(36): inferring latch(es) for signal or variable "salida11", which holds its previous value in one or more paths through the process File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Warning (10631): VHDL Process Statement warning at memoria.vhd(36): inferring latch(es) for signal or variable "salida12", which holds its previous value in one or more paths through the process File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Warning (10631): VHDL Process Statement warning at memoria.vhd(36): inferring latch(es) for signal or variable "output", which holds its previous value in one or more paths through the process File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Warning (10631): VHDL Process Statement warning at memoria.vhd(36): inferring latch(es) for signal or variable "s30", which holds its previous value in one or more paths through the process File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Warning (10631): VHDL Process Statement warning at memoria.vhd(36): inferring latch(es) for signal or variable "ccr", which holds its previous value in one or more paths through the process File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Warning (10631): VHDL Process Statement warning at memoria.vhd(36): inferring latch(es) for signal or variable "ACCB", which holds its previous value in one or more paths through the process File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Warning (10631): VHDL Process Statement warning at memoria.vhd(36): inferring latch(es) for signal or variable "ACCA", which holds its previous value in one or more paths through the process File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Warning (10631): VHDL Process Statement warning at memoria.vhd(36): inferring latch(es) for signal or variable "XH", which holds its previous value in one or more paths through the process File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Warning (10631): VHDL Process Statement warning at memoria.vhd(36): inferring latch(es) for signal or variable "XL", which holds its previous value in one or more paths through the process File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Warning (10631): VHDL Process Statement warning at memoria.vhd(36): inferring latch(es) for signal or variable "YH", which holds its previous value in one or more paths through the process File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Warning (10631): VHDL Process Statement warning at memoria.vhd(36): inferring latch(es) for signal or variable "YL", which holds its previous value in one or more paths through the process File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Warning (10631): VHDL Process Statement warning at memoria.vhd(36): inferring latch(es) for signal or variable "PCH", which holds its previous value in one or more paths through the process File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Warning (10631): VHDL Process Statement warning at memoria.vhd(36): inferring latch(es) for signal or variable "PCL", which holds its previous value in one or more paths through the process File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "PCL[0]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "PCL[1]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "PCL[2]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "PCL[3]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "PCL[4]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "PCL[5]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "PCL[6]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "PCL[7]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "PCH[0]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "PCH[1]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "PCH[2]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "PCH[3]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "PCH[4]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "PCH[5]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "PCH[6]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "PCH[7]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "YL[0]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "YL[1]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "YL[2]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "YL[3]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "YL[4]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "YL[5]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "YL[6]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "YL[7]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "YH[0]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "YH[1]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "YH[2]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "YH[3]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "YH[4]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "YH[5]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "YH[6]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "YH[7]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "XL[0]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "XL[1]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "XL[2]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "XL[3]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "XL[4]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "XL[5]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "XL[6]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "XL[7]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "XH[0]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "XH[1]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "XH[2]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "XH[3]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "XH[4]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "XH[5]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "XH[6]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "XH[7]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "ACCA[0]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "ACCA[1]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "ACCA[2]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "ACCA[3]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "ACCA[4]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "ACCA[5]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "ACCA[6]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "ACCA[7]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "ACCB[0]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "ACCB[1]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "ACCB[2]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "ACCB[3]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "ACCB[4]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "ACCB[5]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "ACCB[6]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "ACCB[7]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "ccr[0]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "ccr[1]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "ccr[2]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "ccr[3]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "ccr[4]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "ccr[5]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "ccr[6]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "ccr[7]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "s30[0]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "s30[1]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "s30[2]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "s30[3]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "s30[4]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "s30[5]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "s30[6]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "s30[7]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "output[0]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "output[1]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "output[2]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "output[3]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "output[4]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "output[5]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "output[6]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "output[7]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "salida12[0]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "salida12[1]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "salida12[2]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "salida12[3]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "salida12[4]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "salida12[5]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "salida12[6]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "salida12[7]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "salida11[0]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "salida11[1]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "salida11[2]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "salida11[3]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "salida11[4]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "salida11[5]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "salida11[6]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "salida11[7]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "salida10[0]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "salida10[1]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "salida10[2]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "salida10[3]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "salida10[4]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "salida10[5]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "salida10[6]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-Info (10041): Inferred latch for "salida10[7]" at memoria.vhd(36) File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Warning (10036): Verilog HDL or VHDL warning at memoria.vhd(23): object "s20" assigned a value but never read File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 23
+Warning (10492): VHDL Process Statement warning at memoria.vhd(39): signal "nRW" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 39
+Warning (10492): VHDL Process Statement warning at memoria.vhd(40): signal "Data_in" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 40
+Warning (10492): VHDL Process Statement warning at memoria.vhd(43): signal "nRW" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 43
+Warning (10492): VHDL Process Statement warning at memoria.vhd(44): signal "Data_in" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 44
+Warning (10492): VHDL Process Statement warning at memoria.vhd(47): signal "nRW" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 47
+Warning (10492): VHDL Process Statement warning at memoria.vhd(48): signal "Data_in" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 48
+Warning (10492): VHDL Process Statement warning at memoria.vhd(75): signal "nRW" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 75
+Warning (10492): VHDL Process Statement warning at memoria.vhd(76): signal "Data_in" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 76
+Warning (10492): VHDL Process Statement warning at memoria.vhd(106): signal "nRW" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 106
+Warning (10492): VHDL Process Statement warning at memoria.vhd(107): signal "Data_in" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 107
+Warning (10492): VHDL Process Statement warning at memoria.vhd(109): signal "s30" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 109
+Warning (10492): VHDL Process Statement warning at memoria.vhd(148): signal "nRW" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 148
+Warning (10492): VHDL Process Statement warning at memoria.vhd(149): signal "Data_in" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 149
+Warning (10492): VHDL Process Statement warning at memoria.vhd(151): signal "ccr" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 151
+Warning (10492): VHDL Process Statement warning at memoria.vhd(154): signal "nRW" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 154
+Warning (10492): VHDL Process Statement warning at memoria.vhd(155): signal "Data_in" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 155
+Warning (10492): VHDL Process Statement warning at memoria.vhd(157): signal "ACCB" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 157
+Warning (10492): VHDL Process Statement warning at memoria.vhd(160): signal "nRW" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 160
+Warning (10492): VHDL Process Statement warning at memoria.vhd(161): signal "Data_in" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 161
+Warning (10492): VHDL Process Statement warning at memoria.vhd(163): signal "ACCA" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 163
+Warning (10492): VHDL Process Statement warning at memoria.vhd(166): signal "nRW" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 166
+Warning (10492): VHDL Process Statement warning at memoria.vhd(167): signal "Data_in" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 167
+Warning (10492): VHDL Process Statement warning at memoria.vhd(169): signal "XH" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 169
+Warning (10492): VHDL Process Statement warning at memoria.vhd(172): signal "nRW" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 172
+Warning (10492): VHDL Process Statement warning at memoria.vhd(173): signal "Data_in" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 173
+Warning (10492): VHDL Process Statement warning at memoria.vhd(175): signal "XL" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 175
+Warning (10492): VHDL Process Statement warning at memoria.vhd(178): signal "nRW" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 178
+Warning (10492): VHDL Process Statement warning at memoria.vhd(179): signal "Data_in" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 179
+Warning (10492): VHDL Process Statement warning at memoria.vhd(181): signal "YH" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 181
+Warning (10492): VHDL Process Statement warning at memoria.vhd(184): signal "nRW" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 184
+Warning (10492): VHDL Process Statement warning at memoria.vhd(185): signal "Data_in" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 185
+Warning (10492): VHDL Process Statement warning at memoria.vhd(187): signal "YL" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 187
+Warning (10492): VHDL Process Statement warning at memoria.vhd(190): signal "nRW" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 190
+Warning (10492): VHDL Process Statement warning at memoria.vhd(191): signal "Data_in" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 191
+Warning (10492): VHDL Process Statement warning at memoria.vhd(193): signal "PCH" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 193
+Warning (10492): VHDL Process Statement warning at memoria.vhd(196): signal "nRW" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 196
+Warning (10492): VHDL Process Statement warning at memoria.vhd(197): signal "Data_in" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 197
+Warning (10492): VHDL Process Statement warning at memoria.vhd(199): signal "PCL" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 199
+Warning (10631): VHDL Process Statement warning at memoria.vhd(36): inferring latch(es) for signal or variable "salida10", which holds its previous value in one or more paths through the process File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Warning (10631): VHDL Process Statement warning at memoria.vhd(36): inferring latch(es) for signal or variable "salida11", which holds its previous value in one or more paths through the process File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Warning (10631): VHDL Process Statement warning at memoria.vhd(36): inferring latch(es) for signal or variable "salida12", which holds its previous value in one or more paths through the process File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Warning (10631): VHDL Process Statement warning at memoria.vhd(36): inferring latch(es) for signal or variable "output", which holds its previous value in one or more paths through the process File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Warning (10631): VHDL Process Statement warning at memoria.vhd(36): inferring latch(es) for signal or variable "s30", which holds its previous value in one or more paths through the process File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Warning (10631): VHDL Process Statement warning at memoria.vhd(36): inferring latch(es) for signal or variable "ccr", which holds its previous value in one or more paths through the process File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Warning (10631): VHDL Process Statement warning at memoria.vhd(36): inferring latch(es) for signal or variable "ACCB", which holds its previous value in one or more paths through the process File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Warning (10631): VHDL Process Statement warning at memoria.vhd(36): inferring latch(es) for signal or variable "ACCA", which holds its previous value in one or more paths through the process File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Warning (10631): VHDL Process Statement warning at memoria.vhd(36): inferring latch(es) for signal or variable "XH", which holds its previous value in one or more paths through the process File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Warning (10631): VHDL Process Statement warning at memoria.vhd(36): inferring latch(es) for signal or variable "XL", which holds its previous value in one or more paths through the process File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Warning (10631): VHDL Process Statement warning at memoria.vhd(36): inferring latch(es) for signal or variable "YH", which holds its previous value in one or more paths through the process File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Warning (10631): VHDL Process Statement warning at memoria.vhd(36): inferring latch(es) for signal or variable "YL", which holds its previous value in one or more paths through the process File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Warning (10631): VHDL Process Statement warning at memoria.vhd(36): inferring latch(es) for signal or variable "PCH", which holds its previous value in one or more paths through the process File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Warning (10631): VHDL Process Statement warning at memoria.vhd(36): inferring latch(es) for signal or variable "PCL", which holds its previous value in one or more paths through the process File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "PCL[0]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "PCL[1]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "PCL[2]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "PCL[3]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "PCL[4]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "PCL[5]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "PCL[6]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "PCL[7]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "PCH[0]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "PCH[1]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "PCH[2]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "PCH[3]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "PCH[4]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "PCH[5]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "PCH[6]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "PCH[7]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "YL[0]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "YL[1]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "YL[2]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "YL[3]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "YL[4]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "YL[5]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "YL[6]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "YL[7]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "YH[0]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "YH[1]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "YH[2]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "YH[3]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "YH[4]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "YH[5]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "YH[6]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "YH[7]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "XL[0]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "XL[1]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "XL[2]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "XL[3]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "XL[4]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "XL[5]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "XL[6]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "XL[7]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "XH[0]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "XH[1]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "XH[2]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "XH[3]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "XH[4]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "XH[5]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "XH[6]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "XH[7]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "ACCA[0]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "ACCA[1]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "ACCA[2]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "ACCA[3]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "ACCA[4]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "ACCA[5]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "ACCA[6]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "ACCA[7]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "ACCB[0]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "ACCB[1]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "ACCB[2]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "ACCB[3]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "ACCB[4]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "ACCB[5]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "ACCB[6]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "ACCB[7]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "ccr[0]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "ccr[1]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "ccr[2]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "ccr[3]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "ccr[4]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "ccr[5]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "ccr[6]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "ccr[7]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "s30[0]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "s30[1]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "s30[2]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "s30[3]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "s30[4]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "s30[5]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "s30[6]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "s30[7]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "output[0]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "output[1]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "output[2]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "output[3]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "output[4]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "output[5]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "output[6]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "output[7]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "salida12[0]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "salida12[1]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "salida12[2]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "salida12[3]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "salida12[4]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "salida12[5]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "salida12[6]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "salida12[7]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "salida11[0]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "salida11[1]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "salida11[2]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "salida11[3]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "salida11[4]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "salida11[5]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "salida11[6]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "salida11[7]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "salida10[0]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "salida10[1]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "salida10[2]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "salida10[3]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "salida10[4]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "salida10[5]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "salida10[6]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+Info (10041): Inferred latch for "salida10[7]" at memoria.vhd(36) File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
 Info (12128): Elaborating entity "multiplexor" for hierarchy "multiplexor:inst3"
 Info (278001): Inferred 1 megafunctions from design logic
-    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "micro68HC11:inst|Mult0" File: /home/adriangutierrezgomez/altera_lite/25.1std/quartus/libraries/vhdl/synopsys/ieee/syn_arit.vhd Line: 658
-Info (12130): Elaborated megafunction instantiation "micro68HC11:inst|lpm_mult:Mult0" File: /home/adriangutierrezgomez/altera_lite/25.1std/quartus/libraries/vhdl/synopsys/ieee/syn_arit.vhd Line: 658
-Info (12133): Instantiated megafunction "micro68HC11:inst|lpm_mult:Mult0" with the following parameter: File: /home/adriangutierrezgomez/altera_lite/25.1std/quartus/libraries/vhdl/synopsys/ieee/syn_arit.vhd Line: 658
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "micro68HC11:inst|Mult0" File: /home/adrianggtz/altera_lite/25.1std/quartus/libraries/vhdl/synopsys/ieee/syn_arit.vhd Line: 658
+Info (12130): Elaborated megafunction instantiation "micro68HC11:inst|lpm_mult:Mult0" File: /home/adrianggtz/altera_lite/25.1std/quartus/libraries/vhdl/synopsys/ieee/syn_arit.vhd Line: 658
+Info (12133): Instantiated megafunction "micro68HC11:inst|lpm_mult:Mult0" with the following parameter: File: /home/adrianggtz/altera_lite/25.1std/quartus/libraries/vhdl/synopsys/ieee/syn_arit.vhd Line: 658
     Info (12134): Parameter "LPM_WIDTHA" = "8"
     Info (12134): Parameter "LPM_WIDTHB" = "8"
     Info (12134): Parameter "LPM_WIDTHP" = "16"
@@ -753,24 +752,24 @@ Info (12133): Instantiated megafunction "micro68HC11:inst|lpm_mult:Mult0" with t
     Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
     Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
 Info (12021): Found 1 design units, including 1 entities, in source file db/mult_aat.tdf
-    Info (12023): Found entity 1: mult_aat File: /Repos/arquitectura_compus_practica06/db/mult_aat.tdf Line: 29
-Warning (13012): Latch memoria:inst1|output[7] has unsafe behavior File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal micro68HC11:inst|Dir[15] File: /Repos/arquitectura_compus_practica06/micro68HC11.vhd Line: 74
-Warning (13012): Latch memoria:inst1|output[6] has unsafe behavior File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal micro68HC11:inst|Dir[15] File: /Repos/arquitectura_compus_practica06/micro68HC11.vhd Line: 74
-Warning (13012): Latch memoria:inst1|output[5] has unsafe behavior File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal micro68HC11:inst|Dir[15] File: /Repos/arquitectura_compus_practica06/micro68HC11.vhd Line: 74
-Warning (13012): Latch memoria:inst1|output[4] has unsafe behavior File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal micro68HC11:inst|Dir[15] File: /Repos/arquitectura_compus_practica06/micro68HC11.vhd Line: 74
-Warning (13012): Latch memoria:inst1|output[3] has unsafe behavior File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal micro68HC11:inst|Dir[15] File: /Repos/arquitectura_compus_practica06/micro68HC11.vhd Line: 74
-Warning (13012): Latch memoria:inst1|output[2] has unsafe behavior File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal micro68HC11:inst|Dir[15] File: /Repos/arquitectura_compus_practica06/micro68HC11.vhd Line: 74
-Warning (13012): Latch memoria:inst1|output[1] has unsafe behavior File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal micro68HC11:inst|Dir[15] File: /Repos/arquitectura_compus_practica06/micro68HC11.vhd Line: 74
-Warning (13012): Latch memoria:inst1|output[0] has unsafe behavior File: /Repos/arquitectura_compus_practica06/memoria.vhd Line: 36
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal micro68HC11:inst|Dir[15] File: /Repos/arquitectura_compus_practica06/micro68HC11.vhd Line: 74
-Info (13000): Registers with preset signals will power-up high File: /Repos/arquitectura_compus_practica06/micro68HC11.vhd Line: 74
+    Info (12023): Found entity 1: mult_aat File: /home/adrianggtz/repos/arquitectura_compus_practica06/db/mult_aat.tdf Line: 29
+Warning (13012): Latch memoria:inst1|output[7] has unsafe behavior File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal micro68HC11:inst|Dir[15] File: /home/adrianggtz/repos/arquitectura_compus_practica06/micro68HC11.vhd Line: 74
+Warning (13012): Latch memoria:inst1|output[6] has unsafe behavior File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal micro68HC11:inst|Dir[15] File: /home/adrianggtz/repos/arquitectura_compus_practica06/micro68HC11.vhd Line: 74
+Warning (13012): Latch memoria:inst1|output[5] has unsafe behavior File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal micro68HC11:inst|Dir[15] File: /home/adrianggtz/repos/arquitectura_compus_practica06/micro68HC11.vhd Line: 74
+Warning (13012): Latch memoria:inst1|output[4] has unsafe behavior File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal micro68HC11:inst|Dir[15] File: /home/adrianggtz/repos/arquitectura_compus_practica06/micro68HC11.vhd Line: 74
+Warning (13012): Latch memoria:inst1|output[3] has unsafe behavior File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal micro68HC11:inst|Dir[15] File: /home/adrianggtz/repos/arquitectura_compus_practica06/micro68HC11.vhd Line: 74
+Warning (13012): Latch memoria:inst1|output[2] has unsafe behavior File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal micro68HC11:inst|Dir[15] File: /home/adrianggtz/repos/arquitectura_compus_practica06/micro68HC11.vhd Line: 74
+Warning (13012): Latch memoria:inst1|output[1] has unsafe behavior File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal micro68HC11:inst|Dir[15] File: /home/adrianggtz/repos/arquitectura_compus_practica06/micro68HC11.vhd Line: 74
+Warning (13012): Latch memoria:inst1|output[0] has unsafe behavior File: /home/adrianggtz/repos/arquitectura_compus_practica06/memoria.vhd Line: 36
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal micro68HC11:inst|Dir[15] File: /home/adrianggtz/repos/arquitectura_compus_practica06/micro68HC11.vhd Line: 74
+Info (13000): Registers with preset signals will power-up high File: /home/adrianggtz/repos/arquitectura_compus_practica06/micro68HC11.vhd Line: 74
 Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
@@ -781,9 +780,9 @@ Info (21057): Implemented 964 device resources after synthesis - the final resou
     Info (21061): Implemented 861 logic cells
     Info (21062): Implemented 1 DSP elements
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 86 warnings
-    Info: Peak virtual memory: 500 megabytes
-    Info: Processing ended: Mon Nov  9 23:18:49 2026
-    Info: Elapsed time: 00:00:06
-    Info: Total CPU time (on all processors): 00:00:11
+    Info: Peak virtual memory: 436 megabytes
+    Info: Processing ended: Wed Nov 11 10:09:54 2026
+    Info: Elapsed time: 00:00:35
+    Info: Total CPU time (on all processors): 00:00:45
 
 
