@@ -2,65 +2,65 @@
 Timing Analyzer Summary
 ------------------------------------------------------------
 
-Type  : Slow 1200mV 85C Model Setup 'micro68HC11:inst|Dir[0]'
-Slack : -10.003
-TNS   : -180.189
-
 Type  : Slow 1200mV 85C Model Setup 'clk'
-Slack : -9.805
-TNS   : -1125.922
+Slack : -10.499
+TNS   : -1181.417
+
+Type  : Slow 1200mV 85C Model Setup 'micro68HC11:inst|Dir[0]'
+Slack : -9.291
+TNS   : -172.194
 
 Type  : Slow 1200mV 85C Model Hold 'micro68HC11:inst|Dir[0]'
-Slack : -2.254
-TNS   : -3.233
+Slack : -5.201
+TNS   : -21.462
 
 Type  : Slow 1200mV 85C Model Hold 'clk'
-Slack : 0.344
+Slack : 0.343
 TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'micro68HC11:inst|Dir[0]'
+Slack : -3.682
+TNS   : -331.281
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
 Slack : -3.000
-TNS   : -156.000
-
-Type  : Slow 1200mV 85C Model Minimum Pulse Width 'micro68HC11:inst|Dir[0]'
-Slack : -2.726
-TNS   : -213.378
-
-Type  : Slow 1200mV 0C Model Setup 'micro68HC11:inst|Dir[0]'
-Slack : -9.066
-TNS   : -158.079
+TNS   : -156.896
 
 Type  : Slow 1200mV 0C Model Setup 'clk'
-Slack : -8.698
-TNS   : -1000.194
+Slack : -9.398
+TNS   : -1047.194
+
+Type  : Slow 1200mV 0C Model Setup 'micro68HC11:inst|Dir[0]'
+Slack : -8.405
+TNS   : -150.438
 
 Type  : Slow 1200mV 0C Model Hold 'micro68HC11:inst|Dir[0]'
-Slack : -1.932
-TNS   : -1.959
+Slack : -4.670
+TNS   : -18.473
 
 Type  : Slow 1200mV 0C Model Hold 'clk'
-Slack : 0.299
+Slack : 0.298
 TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'micro68HC11:inst|Dir[0]'
+Slack : -3.221
+TNS   : -291.834
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
 Slack : -3.000
-TNS   : -156.000
-
-Type  : Slow 1200mV 0C Model Minimum Pulse Width 'micro68HC11:inst|Dir[0]'
-Slack : -2.353
-TNS   : -185.769
-
-Type  : Fast 1200mV 0C Model Setup 'micro68HC11:inst|Dir[0]'
-Slack : -5.612
-TNS   : -72.389
+TNS   : -156.656
 
 Type  : Fast 1200mV 0C Model Setup 'clk'
-Slack : -5.508
-TNS   : -613.427
+Slack : -5.620
+TNS   : -609.169
+
+Type  : Fast 1200mV 0C Model Setup 'micro68HC11:inst|Dir[0]'
+Slack : -5.194
+TNS   : -64.315
 
 Type  : Fast 1200mV 0C Model Hold 'micro68HC11:inst|Dir[0]'
-Slack : -1.473
-TNS   : -2.338
+Slack : -2.944
+TNS   : -11.829
 
 Type  : Fast 1200mV 0C Model Hold 'clk'
 Slack : 0.178
@@ -68,10 +68,10 @@ TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
 Slack : -3.000
-TNS   : -166.353
+TNS   : -201.847
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'micro68HC11:inst|Dir[0]'
-Slack : -1.465
-TNS   : -94.408
+Slack : -1.927
+TNS   : -155.473
 
 ------------------------------------------------------------
